@@ -50,6 +50,7 @@ nav li {
 .banner-title {
     width: 600;
     size: 45px;
+    
 
 }
 
@@ -72,6 +73,7 @@ nav li {
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
+    background-size: contain;
 }
 
 /* about section */
@@ -92,7 +94,7 @@ main {
 
 .section-title {
 
-    margin-bottom: 30pxS;
+    margin-bottom: 30px;
 }
 
 .section-description {
@@ -179,4 +181,24 @@ color: #757575;
 .resume-button{
     margin: 50px;
     text-align: center;
+}
+/* contact styles */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: peachpuff;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="text"], input[type="email"] ,textarea{
+    margin-bottom: 20px;
+    border: 0;
+    width: 100%;
+    
+}
+input{
+height:50px;
+
 }
